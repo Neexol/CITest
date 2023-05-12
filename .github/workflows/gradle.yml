@@ -30,5 +30,7 @@ jobs:
         distribution: 'oracle'
     - name: Make gradlew executable
       run: chmod +x ./gradlew
-    - name: Build and run with Gradle
+    - name: Build with Gradle
+      run: ./gradlew build
+    - name: Run with Gradle
       run: ./gradlew run
