@@ -35,4 +35,4 @@ jobs:
       with:
         arguments: build
     - name: Run application
-      run: java -jar CITest-1.0.jar
+      run: java -jar build/libs/CITest-1.0.jar
